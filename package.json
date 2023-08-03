@@ -24,7 +24,6 @@
     "express-validator": "^7.0.1",
     "mysql2": "^3.5.2",
     "pug": "^3.0.2",
-    "readme-md-generator": "^1.0.0",
     "sequelize": "^6.32.1"
   },
   "devDependencies": {
