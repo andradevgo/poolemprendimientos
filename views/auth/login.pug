@@ -1,0 +1,24 @@
+extends ../layout/index
+
+block contenido
+    
+    div
+        div
+            a(href="#") 
+                img(class="h-40 mx-auto" src="/img/logo.png" alt="")
+            h2.text-center.text-2xl.font-extrabold= pagina
+        div.mt-8.mx-auto.max-w-md
+            .bg-white.py-8.px-4.shadow
+                form.space-y-5
+                    div 
+                        label.block.text-sm.uppercase.text-gray-500.mb-2.font-bold(for="email") Email de registro
+                        input#email.w-full.px-3.py-4.border.border-gray-300.rounded-md.placeholder-gray-400(placeholder="Tu Email" type="email" name="email")
+                    div 
+                        label.block.text-sm.uppercase.text-gray-500.mb-2.font-bold(for="password") Password
+                        input#password.w-full.px-3.py-4.border.border-gray-300.rounded-md.placeholder-gray-400(placeholder="Tu Password" type="password" name="password")
+
+                    div.flex.items-center.justify-between
+                        a.text-gray-500.text-xs(href="/auth/registro") Si no tienes cuenta, regístrate! 
+                        a.text-gray-500.text-xs(href="/auth/olvide-password") Olvidé mi password
+
+                    input(class="w-full bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 cursor-pointer" type="submit" value="Iniciar Sesión")
