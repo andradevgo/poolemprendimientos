@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> Mi primer proyecto
+> Proyecto pool emprendimientos
 
 ## Install
 
@@ -18,16 +18,12 @@ npm install
 
 ```sh
 npm run start
+npm run server
+npm run css //Si está en dev
 ```
 
-## Author
+## Authors
 
-👤 **Santiago Andrade**
+👤 **Santiago Andrade** **Diego Caceres**
 
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
