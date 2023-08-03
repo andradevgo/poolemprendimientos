@@ -9,6 +9,9 @@
     "server": "nodemon index.js",
     "css": "postcss public/css/tailwind.css -o public/css/app.css --watch"
   },
+  "engines":{
+    "node": ">=16.14"
+  },
   "keywords": [
     "MVC",
     "Pug",
