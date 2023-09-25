@@ -1,0 +1,7 @@
+div(class="bg-white shadow rounded-lg")
+    img(class="object-cover h-72 w-full" src=`/uploads/${producto.imagen}` alt=`Imagen producto ${producto.titulo}`)
+    div(class="p-5 space-y-5")
+        h3(class="text-2xl font-bold")= producto.titulo
+        p(class="text-sm text-gray-600") Precio 
+            span(class="text-gray-800 font-bold")= producto.precio.nombre
+        a(href=`/emprendimiento/${producto.id}` class="bg-orange-600 w-full text-center block font-bold text-white p-2 uppercase rounded") VER DETALLES

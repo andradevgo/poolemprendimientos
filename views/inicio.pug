@@ -1,0 +1,20 @@
+extends ./layout/app
+
+block contenido
+    div(class="py-5")
+        
+        section(class="py-5")
+            h2(class="text-center text-4xl font-extrabold pt-10") Productos en venta
+
+            div(class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-14")
+                each producto in productos
+                    include ./templates/card
+      
+        section(class="py-5")
+            h2(class="text-center text-4xl font-extrabold pt-10") Servicios disponibles
+            div(class="grid grid-cols-1 md:grid-cols-3 gap-5 mt-14")
+                each producto in servicios
+                    include ./templates/card
+        
+
+    
